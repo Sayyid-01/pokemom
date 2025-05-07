@@ -19,8 +19,6 @@ const Navbar = ({ onSearch, onFilter }) => {
         {/* Logo */}
         <h1 className="font-bold text-[24px] text-indigo-600">
 
-          <Link to="/">PokeMon Explorer</Link>
-
           <button onClick={() => window.location.reload()}>PokeMon Explorer</button>
 
         </h1>
